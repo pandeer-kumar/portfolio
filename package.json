@@ -1,0 +1,43 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "portfolio react web app, this is my first personal project",
+    "scripts": {
+        "format": "prettier --write \"src/**/*.{js, jsx} \"",
+        "lint": "eslint \"src/**/*.{js.jsx}\" --quiet",
+        "dev": "parcel -p 3000 src/index.html",
+        "build": "parcel build --no-source-maps src/index.html",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist",
+        "preprod": "npm run build",
+        "prod": "serve dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://pandeer-kumar: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@github.com/pandeer-kumar/portfolio.git"
+    },
+    "author": "Abhishek Kumar",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/pandeer-kumar/portfolio/issues"
+    },
+    "homepage": "https://github.com/pandeer-kumar/portfolio",
+    "devDependencies": {
+        "eslint": "^8.16.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsx-a11y": "^6.5.1",
+        "eslint-plugin-react": "^7.30.0",
+        "eslint-plugin-react-hooks": "^4.5.0",
+        "gh-pages": "^4.0.0",
+        "parcel": "^2.6.0",
+        "prettier": "^2.6.2",
+        "process": "^0.11.10",
+        "serve": "^13.0.2"
+    },
+    "dependencies": {
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0",
+        "react-router-dom": "^6.3.0"
+    }
+}
