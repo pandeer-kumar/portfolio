@@ -6,7 +6,7 @@
         "format": "prettier --write \"src/**/*.{js, jsx} \"",
         "lint": "eslint \"src/**/*.{js.jsx}\" --quiet",
         "dev": "parcel -p 3000 src/index.html",
-        "build": "parcel build --no-source-maps src/index.html",
+        "build": "parcel build --no-source-maps --public-url https://pandeer-kumar.github.io/portfolio src/index.html",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d dist",
         "preprod": "npm run build",
@@ -21,7 +21,8 @@
     "bugs": {
         "url": "https://github.com/pandeer-kumar/portfolio/issues"
     },
-    "homepage": "https://github.com/pandeer-kumar/portfolio",
+    "homepage": "https://pandeer-kumar.github.io/portfolio",
+    "private": true,
     "devDependencies": {
         "eslint": "^8.16.0",
         "eslint-config-prettier": "^8.5.0",
