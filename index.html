@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Abhishek Kumar</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Abhishek Kumar, System Engineer at Tesco. Platform engineering, system design, AI agents on MCP, CI/CD and cloud cost automation.">
+<meta name="description" content="Abhishek Kumar, platform and systems engineer. Platform engineering, system design, AI agents on MCP, CI/CD and cloud cost automation.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Geist+Mono:wght@400;500&display=swap">
@@ -224,7 +224,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
       <li><a href="#pulse">Pulse</a></li>
       <li class="opt"><a href="#cso">CSO</a></li>
       <li class="opt"><a href="#tpaas">TPAAS</a></li>
-      <li><a href="#experience">Experience</a></li>
+      <li><a href="#background">Background</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
@@ -235,9 +235,9 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
     <canvas id="net" aria-hidden="true"></canvas>
     <div class="wrap">
       <div class="hero-inner" id="heroInner">
-        <span class="status mono"><b aria-hidden="true"></b>System Engineer II · Tesco</span>
+        <span class="status mono"><b aria-hidden="true"></b>Platform &amp; systems engineer</span>
         <h1>I design the <span class="grad">platforms</span> <span class="thin">other engineers ship on.</span></h1>
-        <p class="lede">Six years building internal platforms at Tesco and American Express: AI agents on MCP, CI/CD orchestration, cloud cost automation, and observability for estates of 60,000+ servers.</p>
+        <p class="lede">Six years building internal platforms at enterprise scale: AI agents on MCP, CI/CD orchestration, cloud cost automation, and observability for estates of 60,000+ servers.</p>
         <div class="kpis">
           <div class="kpi"><strong data-count="220" data-prefix="£" data-suffix="K">£220K</strong><span>cloud spend saved every month</span></div>
           <div class="kpi"><strong data-count="60" data-suffix="k+">60k+</strong><span>servers in one dashboard</span></div>
@@ -253,13 +253,13 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
     <p id="statement">I start with the failure modes. Who calls what, what happens when it is slow, who is allowed to touch it, and how someone at 3am finds out why. Then I build the platform so teams never have to ask.</p>
   </section>
 
-  <!-- Scene 1: Tesco Pulse -->
-  <section class="scene" id="pulse" data-scene="pulse" aria-label="Tesco Pulse architecture">
+  <!-- Scene 1: Pulse -->
+  <section class="scene" id="pulse" data-scene="pulse" aria-label="Pulse architecture">
     <div class="pin">
       <div class="wrap" style="width:100%">
         <div class="pulse-grid">
           <div class="pulse-copy">
-            <span class="mono">Case 01 · Tesco Pulse</span>
+            <span class="mono">Project 01 · Pulse</span>
             <h2 style="margin-top:14px">An AI service desk <span>built on MCP.</span></h2>
             <div class="steps" id="steps">
               <div class="step on"><span class="mono">01 · Ingress</span><h3>A question arrives over WebSocket</h3><p>Internal teams ask in a chat UI. The connection stays open, so answers stream back as they are produced.</p></div>
@@ -305,7 +305,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
   <section class="scene" id="cso" data-scene="cso" aria-label="Cost Savings Opportunities platform">
     <div class="pin">
       <div class="wrap cso-inner">
-        <span class="mono">Case 02 · Cost Savings Opportunities</span>
+        <span class="mono">Project 02 · Cost Savings Opportunities</span>
         <div class="big" id="big" aria-label="£220K per month"><span id="bigNum">£220K</span><small>/month</small></div>
         <div class="cso-cap">
           <p><b>Saved on Azure, every month,</b> by a platform that finds waste, gets it approved and cleans it up without a human pushing tickets around. Spring Reactive services on AKS, PostgreSQL, Azure Automation and a React dashboard behind SSO.</p>
@@ -328,8 +328,8 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
   <section class="sec" id="tpaas" aria-label="TPAAS">
     <div class="wrap">
       <div class="sec-head reveal">
-        <div><span class="eyebrow mono">Case 03 · TPAAS</span><h2>One pipeline for every team at Tesco.</h2></div>
-        <p>Tesco Pipeline as a Service standardises build, deploy, approval and rollback across environments, with live logs from one portal.</p>
+        <div><span class="eyebrow mono">Project 03 · TPAAS</span><h2>One pipeline for every engineering team.</h2></div>
+        <p>Pipeline as a Service standardises build, deploy, approval and rollback across environments, with live logs from one portal.</p>
       </div>
       <div class="pipe reveal" id="pipe" aria-label="A release moving through dev, QA and production">
         <div class="pipe-grid" id="pipeGrid"></div>
@@ -351,46 +351,48 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
     <div class="pin">
       <div class="wrap" style="width:100%"><div class="track-head">
         <div><span class="mono" style="color:var(--stage-dim)">More builds</span><h2 style="margin-top:14px">Tools platform teams use every day.</h2></div>
-        <p>Portals, automation and monitoring built at Tesco and American Express.</p>
+        <p>Portals, automation and monitoring for platform and application teams.</p>
       </div></div>
       <div class="track" id="track">
-        <article class="card"><span class="mono">Tesco</span><svg viewBox="0 0 60 46" aria-hidden="true"><rect x="1" y="1" width="58" height="44" rx="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 34 L22 22 L30 28 L48 12" fill="none" stroke="currentColor" stroke-width="2"/></svg><h3>Cloud Buddy</h3><p>A portal for the platform team's daily work: multi-team inventory, capacity insights, certificate monitoring and a single risk dashboard.</p><div class="tags"><span>Dual RBAC</span><span>SSO</span><span>React</span></div></article>
-        <article class="card"><span class="mono">Tesco</span><svg viewBox="0 0 60 46" aria-hidden="true"><circle cx="23" cy="23" r="20" fill="none" stroke="currentColor" stroke-width="2"/><path d="M23 11 V23 L32 29" fill="none" stroke="currentColor" stroke-width="2"/><path d="M48 14 V32 M42 26 L48 32 L54 26" fill="none" stroke="currentColor" stroke-width="2"/></svg><h3>Windows Patching</h3><p>Self-service onboarding for application teams with ad-hoc and scheduled patching, notifications and estate-wide compliance reporting.</p><div class="tags"><span>Scheduling</span><span>Compliance</span><span>Automation</span></div></article>
-        <article class="card"><span class="mono">Tesco</span><svg viewBox="0 0 60 46" aria-hidden="true"><path d="M2 23 H14 L20 8 L28 38 L34 18 L38 23 H58" fill="none" stroke="currentColor" stroke-width="2"/></svg><h3>Tanzu cluster health</h3><p>Real-time monitoring for Tanzu Kubernetes Supervisor Clusters, giving availability, capacity and scaling signals before teams feel the pain.</p><div class="tags"><span>Tanzu</span><span>Kubernetes</span><span>Observability</span></div></article>
-        <article class="card"><span class="mono">American Express</span><svg viewBox="0 0 60 46" aria-hidden="true"><rect x="1" y="1" width="24" height="20" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><rect x="35" y="1" width="24" height="20" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><rect x="1" y="25" width="58" height="20" rx="4" fill="none" stroke="currentColor" stroke-width="2"/></svg><h3>Cloud Troubleshooting Assistance</h3><p>A CloudOps portal with capacity reports, one view of every app across environments, automated ticket assignment and workflow metrics.</p><div class="tags"><span>CloudOps</span><span>Ticketing</span><span>Metrics</span></div></article>
-        <article class="card"><span class="mono">American Express</span><svg viewBox="0 0 60 46" aria-hidden="true"><rect x="1" y="1" width="58" height="44" rx="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 16 L18 23 L10 30 M24 31 H40" fill="none" stroke="currentColor" stroke-width="2"/></svg><h3>Pod exec APIs</h3><p>Restricted commands run inside pods straight from the ticketing console, so engineers diagnose and fix without leaving the incident.</p><div class="tags"><span>Kubernetes</span><span>Guardrails</span><span>APIs</span></div></article>
-        <article class="card"><span class="mono">American Express</span><svg viewBox="0 0 60 46" aria-hidden="true"><rect x="12" y="20" width="36" height="25" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20 V13 a10 10 0 0 1 20 0 V20" fill="none" stroke="currentColor" stroke-width="2"/></svg><h3>JWT + SSO auth rewrite</h3><p>Replaced a legacy auth module with JWT and SSO and introduced custom role-based access control.</p><div class="tags"><span>JWT</span><span>SSO</span><span>RBAC</span></div></article>
-        <article class="card"><span class="mono">American Express</span><svg viewBox="0 0 60 46" aria-hidden="true"><path d="M4 42 V28 M16 42 V16 M28 42 V22 M40 42 V8 M52 42 V18" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg><h3>60k-server dashboard</h3><p>A ReactJS dashboard of metrics across 60,000+ servers, giving estate-level visibility and actionable insight.</p><div class="tags"><span>React</span><span>Metrics</span><span>Scale</span></div></article>
+        <article class="card"><span class="mono">Internal portal</span><svg viewBox="0 0 60 46" aria-hidden="true"><rect x="1" y="1" width="58" height="44" rx="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 34 L22 22 L30 28 L48 12" fill="none" stroke="currentColor" stroke-width="2"/></svg><h3>Cloud Buddy</h3><p>A portal for the platform team's daily work: multi-team inventory, capacity insights, certificate monitoring and a single risk dashboard.</p><div class="tags"><span>Dual RBAC</span><span>SSO</span><span>React</span></div></article>
+        <article class="card"><span class="mono">Automation</span><svg viewBox="0 0 60 46" aria-hidden="true"><circle cx="23" cy="23" r="20" fill="none" stroke="currentColor" stroke-width="2"/><path d="M23 11 V23 L32 29" fill="none" stroke="currentColor" stroke-width="2"/><path d="M48 14 V32 M42 26 L48 32 L54 26" fill="none" stroke="currentColor" stroke-width="2"/></svg><h3>Windows Patching</h3><p>Self-service onboarding for application teams with ad-hoc and scheduled patching, notifications and estate-wide compliance reporting.</p><div class="tags"><span>Scheduling</span><span>Compliance</span><span>Automation</span></div></article>
+        <article class="card"><span class="mono">Observability</span><svg viewBox="0 0 60 46" aria-hidden="true"><path d="M2 23 H14 L20 8 L28 38 L34 18 L38 23 H58" fill="none" stroke="currentColor" stroke-width="2"/></svg><h3>Tanzu cluster health</h3><p>Real-time monitoring for Tanzu Kubernetes Supervisor Clusters, giving availability, capacity and scaling signals before teams feel the pain.</p><div class="tags"><span>Tanzu</span><span>Kubernetes</span><span>Observability</span></div></article>
+        <article class="card"><span class="mono">CloudOps</span><svg viewBox="0 0 60 46" aria-hidden="true"><rect x="1" y="1" width="24" height="20" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><rect x="35" y="1" width="24" height="20" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><rect x="1" y="25" width="58" height="20" rx="4" fill="none" stroke="currentColor" stroke-width="2"/></svg><h3>Cloud Troubleshooting Assistance</h3><p>A CloudOps portal with capacity reports, one view of every app across environments, automated ticket assignment and workflow metrics.</p><div class="tags"><span>CloudOps</span><span>Ticketing</span><span>Metrics</span></div></article>
+        <article class="card"><span class="mono">Kubernetes</span><svg viewBox="0 0 60 46" aria-hidden="true"><rect x="1" y="1" width="58" height="44" rx="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 16 L18 23 L10 30 M24 31 H40" fill="none" stroke="currentColor" stroke-width="2"/></svg><h3>Pod exec APIs</h3><p>Restricted commands run inside pods straight from the ticketing console, so engineers diagnose and fix without leaving the incident.</p><div class="tags"><span>Kubernetes</span><span>Guardrails</span><span>APIs</span></div></article>
+        <article class="card"><span class="mono">Security</span><svg viewBox="0 0 60 46" aria-hidden="true"><rect x="12" y="20" width="36" height="25" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20 V13 a10 10 0 0 1 20 0 V20" fill="none" stroke="currentColor" stroke-width="2"/></svg><h3>JWT + SSO auth rewrite</h3><p>Replaced a legacy auth module with JWT and SSO and introduced custom role-based access control.</p><div class="tags"><span>JWT</span><span>SSO</span><span>RBAC</span></div></article>
+        <article class="card"><span class="mono">Dashboards</span><svg viewBox="0 0 60 46" aria-hidden="true"><path d="M4 42 V28 M16 42 V16 M28 42 V22 M40 42 V8 M52 42 V18" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg><h3>60k-server dashboard</h3><p>A ReactJS dashboard of metrics across 60,000+ servers, giving estate-level visibility and actionable insight.</p><div class="tags"><span>React</span><span>Metrics</span><span>Scale</span></div></article>
       </div>
     </div>
   </section>
 
-  <!-- Experience -->
-  <section class="sec" id="experience" aria-label="Experience">
+  <!-- Background -->
+  <section class="sec" id="background" aria-label="Background">
     <div class="wrap">
-      <div class="sec-head reveal"><div><span class="eyebrow mono">Experience</span><h2>Where the systems ran.</h2></div><p>Bachelor of Engineering in Computer Science, Thapar Institute of Engineering &amp; Technology, Patiala. GPA 8.8.</p></div>
+      <div class="sec-head reveal"><div><span class="eyebrow mono">Background</span><h2>How I build.</h2></div><p>Bachelor of Engineering in Computer Science, Thapar Institute of Engineering &amp; Technology, Patiala. GPA 8.8. Building platforms professionally since 2020.</p></div>
       <div class="tl">
         <div class="role reveal">
-          <div><h3>Tesco</h3><span class="mono when">System Engineer II · Apr 2022 – now</span></div>
+          <div><h3>AI platforms</h3><span class="mono when">Pulse</span></div>
           <ul>
-            <li><b>Tesco Pulse:</b> architected an AI platform on MCP client and servers with multi-session handling, state management and LangGraph intent routing into ITSM tools.</li>
-            <li><b>TPAAS:</b> designed Tesco's unified CI/CD platform with SSO, RBAC and automated deployment workflows.</li>
-            <li><b>CSO:</b> delivered an enterprise cost-savings platform on Spring Reactive, saving £220K a month in cloud spend.</li>
-            <li>Built Cloud Buddy, an automated Windows patching service, and real-time health monitoring for Tanzu Supervisor Clusters.</li>
+            <li><b>MCP client on LangGraph and FastMCP</b> with async, streamable HTTP to three backend MCP servers, serving thousands of concurrent service desk queries.</li>
+            <li><b>Intent routing engine</b> that forwards prompts to the right backend and summarises responses in real time over WebSockets.</li>
+            <li><b>Session layer</b> with persistent chat history, user context and multi-channel access.</li>
           </ul>
         </div>
         <div class="role reveal">
-          <div><h3>American Express</h3><span class="mono when">System Engineer III · Aug 2020 – Apr 2022</span></div>
+          <div><h3>Developer platforms</h3><span class="mono when">TPAAS · Cloud Buddy · Patching</span></div>
           <ul>
-            <li><b>Cloud Troubleshooting Assistance:</b> a CloudOps portal with capacity reports, cross-environment app views and automated ticket assignment.</li>
-            <li>Built exec APIs to run restricted commands in pods from the ticketing console.</li>
-            <li>Replaced legacy authentication with JWT and SSO plus custom role-based access.</li>
-            <li>Created a ReactJS dashboard for metrics across 60k+ servers.</li>
+            <li><b>CI/CD orchestration</b> wired to GitHub Actions, Nexus and Kubernetes with approvals, rollbacks and live logs.</li>
+            <li><b>Enterprise SSO with granular RBAC</b>, including dual-RBAC portals and a JWT-based auth rewrite with custom roles.</li>
+            <li><b>Self-service automation</b> for server onboarding and scheduled patching with compliance dashboards.</li>
           </ul>
         </div>
         <div class="role reveal">
-          <div><h3>Thapar Institute</h3><span class="mono when">B.E. Computer Science · 2017 – 2020</span></div>
-          <ul><li>Bachelor of Engineering in Computer Science Engineering, Patiala, Punjab. GPA 8.8.</li></ul>
+          <div><h3>Cost &amp; observability</h3><span class="mono when">CSO · Tanzu health · CloudOps</span></div>
+          <ul>
+            <li><b>End-to-end Azure cost optimisation</b> from ingestion to approval and cleanup, saving £220K a month, with JIRA sync for application teams.</li>
+            <li><b>Real-time health monitoring</b> for Tanzu Kubernetes Supervisor Clusters with capacity and scaling insight.</li>
+            <li><b>Estate-level dashboards</b> covering 60k+ servers, plus exec APIs for safe in-pod diagnosis from the ticketing console.</li>
+          </ul>
         </div>
       </div>
     </div>
